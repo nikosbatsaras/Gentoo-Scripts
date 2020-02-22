@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 
-wget "https://raw.githubusercontent.com/nikosbatsaras/Gentoo-Scripts/master/partition.sh"
-wget "https://raw.githubusercontent.com/nikosbatsaras/Gentoo-Scripts/master/mkfs.sh"
-wget "https://raw.githubusercontent.com/nikosbatsaras/Gentoo-Scripts/master/stage3.sh"
-wget "https://raw.githubusercontent.com/nikosbatsaras/Gentoo-Scripts/master/make.conf"
+wget https://raw.githubusercontent.com/nikosbatsaras/Gentoo-Scripts/master/partition.sh
+wget https://raw.githubusercontent.com/nikosbatsaras/Gentoo-Scripts/master/mkfs.sh
+wget https://raw.githubusercontent.com/nikosbatsaras/Gentoo-Scripts/master/stage3.sh
 
 chmod +x *.sh
 
